@@ -3,6 +3,7 @@ require(`dotenv`).config({
 })
 
 module.exports = {
+  pathPrefix: "/iodd2020osaka/",
   siteMetadata: {
     siteTitle: `インターナショナル・オープンデータ・デイ2020 大阪 -オンライン-`,
     siteTitleAlt: `IODD2020 OSAKA`,
@@ -59,7 +60,7 @@ module.exports = {
         name: `インターナショナル・オープンデータ・デイ2020 大阪 -オンライン-`,
         short_name: `IODD2020 OSAKA`,
         description: `オンラインイベントとして開催する「IODD2020 OSAKA」の成果をまとめるページです．`,
-        start_url: `/iodd2020osaka/`,
+        start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
         display: `standalone`,
