@@ -9,7 +9,7 @@ module.exports = {
     siteTitleAlt: `インターナショナル・オープンデータ・デイ2020 大阪`,
     siteHeadline: `インターナショナル・オープンデータ・デイ2020 大阪`,
     // Will be used to generate absolute URLs for og:image etc.
-    siteUrl: `http://iodd2020.lodosaka.jp/`,
+    siteUrl: `http://iodd2020osaka.lodosaka.jp/`,
     // Used for SEO
     siteDescription: `オンラインイベントとして開催する「IODD2020 OSAKA」の成果をまとめるページです．`,
     // Will be set on the <html /> tag
