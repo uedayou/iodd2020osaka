@@ -59,7 +59,7 @@ module.exports = {
         name: `インターナショナル・オープンデータ・デイ2020 大阪 -オンライン-`,
         short_name: `IODD2020 OSAKA`,
         description: `オンラインイベントとして開催する「IODD2020 OSAKA」の成果をまとめるページです．`,
-        start_url: `/`,
+        start_url: `/iodd2020osaka/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
         display: `standalone`,
