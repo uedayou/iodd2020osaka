@@ -42,7 +42,11 @@ module.exports = {
             url: `https://www.facebook.com/groups/592761284131510/`,
           },
           {
-            name: `Website`,
+            name: `LODチャレンジ`,
+            url: `http://lodc.jp`,
+          },
+          {
+            name: `関西支部`,
             url: `http://wp.lodosaka.jp/`,
           },
         ],
