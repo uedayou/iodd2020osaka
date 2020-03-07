@@ -5,9 +5,9 @@ require(`dotenv`).config({
 module.exports = {
   pathPrefix: "/iodd2020osaka",
   siteMetadata: {
-    siteTitle: `インターナショナル・オープンデータ・デイ2020 大阪 -オンライン-`,
+    siteTitle: `インターナショナル・オープンデータ・デイ2020 大阪`,
     siteTitleAlt: `IODD2020 OSAKA`,
-    siteHeadline: `インターナショナル・オープンデータ・デイ2020 大阪 -オンライン-`,
+    siteHeadline: `インターナショナル・オープンデータ・デイ2020 大阪`,
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `http://iodd2020.lodosaka.jp/`,
     // Used for SEO
@@ -18,6 +18,7 @@ module.exports = {
     siteImage: `/banner.jpg`,
     // Twitter Handle
     author: `@koujikozaki`,
+    siteLicense: `No rights reserved`,
   },
   plugins: [
     {
@@ -57,7 +58,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `インターナショナル・オープンデータ・デイ2020 大阪 -オンライン-`,
+        name: `インターナショナル・オープンデータ・デイ2020 大阪`,
         short_name: `IODD2020 OSAKA`,
         description: `オンラインイベントとして開催する「IODD2020 OSAKA」の成果をまとめるページです．`,
         start_url: `/iodd2020osaka/`,
