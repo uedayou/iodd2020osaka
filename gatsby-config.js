@@ -42,6 +42,10 @@ module.exports = {
             url: `https://www.facebook.com/groups/592761284131510/`,
           },
           {
+            name: `オープンデータ・デイ`,
+            url: `https://opendataday.org/ja/`,
+          },
+          {
             name: `LODチャレンジ`,
             url: `http://lodc.jp`,
           },
