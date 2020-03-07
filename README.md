@@ -1,5 +1,10 @@
 # iodd2020osaka
 
+## 更新方法
+
+GitHub Actions と連動して、自動的にGitHub Pagesにデプロイされます。
+GitHub Pages を更新したい場合は、 master ブランチに push してください。
+
 ## 編集方法
 
 ### 共通
