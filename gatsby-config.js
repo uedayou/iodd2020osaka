@@ -4,7 +4,19 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `インターナショナル・オープンデータ・デイ2020 大阪 -オンライン-`,
+    siteTitleAlt: `IODD2020 OSAKA`,
+    siteHeadline: `インターナショナル・オープンデータ・デイ2020 大阪 -オンライン-`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `http://iodd2020.lodosaka.jp/`,
+    // Used for SEO
+    siteDescription: `オンラインイベントとして開催する「IODD2020 OSAKA」の成果をまとめるページです．`,
+    // Will be set on the <html /> tag
+    siteLanguage: `ja`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@koujikozaki`,
   },
   plugins: [
     {
@@ -15,19 +27,21 @@ module.exports = {
             title: `Blog`,
             slug: `/blog`,
           },
+/*
           {
             title: `About`,
             slug: `/about`,
           },
+*/
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Facebook`,
+            url: `https://www.facebook.com/groups/592761284131510/`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Website`,
+            url: `http://wp.lodosaka.jp/`,
           },
         ],
       },
@@ -42,9 +56,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `インターナショナル・オープンデータ・デイ2020 大阪 -オンライン-`,
+        short_name: `IODD2020 OSAKA`,
+        description: `オンラインイベントとして開催する「IODD2020 OSAKA」の成果をまとめるページです．`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
